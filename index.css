@@ -1,0 +1,199 @@
+body {
+    font-family: 'Red Hat Mono',  sans-serif;
+    background: #f4f4f4;
+    color: rgba(0, 0, 0, 0.734);
+
+}
+.about_me {
+    background-color: #f4f4f4d5;
+    font-size: 15px;
+    margin-bottom: 30px;
+    /* background: rgba(153, 158, 221, 0.5); */
+    /* border: 2px dashed rgba(00, 150, 00, 0.8); */
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+
+
+.my_hobbies {
+    background-color: #eeee;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    background: rgba(27, 170, 14, 0.624);
+    border-radius: 10px;
+    border: 5px dashed rgba(44, 163, 74, 0.5);
+}
+a {
+    color:blue;
+}
+a:hover {
+    color: orange;
+}
+
+.border {
+list-style: none;
+padding: 0;
+}
+.border li {
+    color: white;
+font-family: "Trebuchet MS", "Lucida Sans";
+padding: 7px 20px;
+margin-bottom: 10px;
+border-radius: 5px;
+border-left: 10px solid #f05d22; 
+box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+font-size: 20px;
+letter-spacing: 2px;
+transition: 0.3s all linear;
+}
+.border li:nth-child(1){border-color:#8bc63e; background-color: #0095d4;}
+.border li:nth-child(2){border-color:#fcba30; background-color: #0095d4;}
+.border li:nth-child(3){border-color:#1ccfc9; background-color: #0095d4;;}
+.border li:nth-child(1):hover {border-right: 20px solid #8bc63e;}
+.border li:nth-child(2):hover {border-right: 20px solid #fcba30;}
+.border li:nth-child(3):hover {border-right: 20px solid #1ccfc9;}
+.border li:hover {border-left: 10px solid transparent;}
+
+.container {
+    display: block;
+    margin: auto;
+}
+
+.SAM {
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+.sam {
+    margin-left: 520px;
+    font-size: 25px;
+}
+table {
+    margin: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 800px;
+    height: 150px;
+}
+th, td:first-child {
+    background: #bdd8f0;
+    color: white;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: white;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.avatar {
+        border: 5px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.btn {
+    background-color: rgb(17, 17, 130);
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: orangered;
+}
+
+.img {
+    padding-right: 5px;
+}
+
+.hobbie {
+    margin-right: 100px;
+    margin-left: 550px;
+    font-size: 35px;
+}
+.my_name {
+    font-weight: bolder;
+}
+.box {
+    width: 20%;
+    background: #f3f3f3;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+.box1 {
+    width: 40%;
+    background: #f3f3f3;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.box2 {
+    width: 40%;
+    background: #f3f3f3;
+    display: inline;
+    box-sizing: border-box;
+}
+.form h2{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+}
+.form-group input,
+.form-group textarea{
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px 0;
+    outline: none;
+    font-family: inherit;
+
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.form-row .form-group {
+    width: 50%;
+}
+
+.form-row .form-group :last-child {
+    margin-right: 0px;
+}
+@media (max-width: 1200px){
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,300&display=swap');
+    body {
+    font-family: 'Regular 400',  sans-serif;
+    width: auto;
+    background: #f4f4f4;
+    color: rgba(0, 0, 0, 0.734);
+
+}
+
+}
